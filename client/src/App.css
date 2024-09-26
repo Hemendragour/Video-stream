@@ -1,0 +1,31 @@
+ 
+.vedio{
+  width: 40%;
+  height: 300px;
+  background: #000;
+}
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 720px; /* Adjust the width as needed */
+  margin: auto;
+}
+
+.video-player {
+  width: 100%;
+  height: auto;
+}
+
+.video-controls {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+ 
